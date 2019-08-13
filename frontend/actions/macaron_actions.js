@@ -1,16 +1,13 @@
-import * as APIUtil from '../util/macaron_api_util';
+import * as APIUtil from "../util/macaron_api_util";
 
-export const RECEIVE_MACARONS = 'RECEIVE_MACARONS';
-
+export const RECEIVE_MACARONS = "RECEIVE_MACARONS";
 
 export const receiveMacarons = macarons => ({
   type: RECEIVE_MACARONS,
-  macarons,
+  macarons
 });
 
+export const fetchMacarons = () => dispatch =>
+  APIUtil.fetchMacarons().then(macarons => dispatch(receiveMacarons(macarons)));
 
-export const fetchMacarons = () => dispatch => (
-  APIUtil.fetchMacarons().then(macarons => (
-    dispatch(receiveMacarons(macarons))
-  ))
-);
+//
