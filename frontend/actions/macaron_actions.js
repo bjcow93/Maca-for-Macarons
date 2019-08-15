@@ -9,3 +9,5 @@ export const receiveMacarons = macarons => ({
 
 export const fetchMacarons = () => dispatch =>
   APIUtil.fetchMacarons().then(macarons => dispatch(receiveMacarons(macarons)));
+
+//
