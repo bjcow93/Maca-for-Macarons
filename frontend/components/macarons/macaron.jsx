@@ -53,11 +53,11 @@ class MacaronPage extends React.Component {
 
           <div className="header-right">
             <div className="navigation-items">
-              <div className="menu">Menu</div>
+              <div className="nav-item">Menu</div>
 
-              <div className="beverages">Beverages</div>
+              <div className="nav-item">Beverages</div>
 
-              <div className="gifts">Gifts</div>
+              <div className="nav-item">Gifts</div>
             </div>
 
             <div className="header-cart" onClick={openCart}>

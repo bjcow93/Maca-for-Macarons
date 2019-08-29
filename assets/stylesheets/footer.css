@@ -41,9 +41,6 @@
 
 .footer-links > a {
   margin-bottom: 10px;
-}
-
-.footer-links > a:hover {
   cursor: pointer;
 }
 
