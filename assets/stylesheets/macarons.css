@@ -77,7 +77,7 @@
   align-items: center;
   margin-left: auto;
   width: 220px;
-  height: auto;
+  height: 160px;
   background-color: rgb(241, 238, 238);
   border-radius: 3px;
 }
@@ -117,5 +117,8 @@
   }
   .macaron-middle {
     overflow: scroll;
+  }
+  .macaron-right {
+    height: auto;
   }
 }
