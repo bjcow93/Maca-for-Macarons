@@ -43,6 +43,10 @@
   margin-bottom: 10px;
 }
 
+.footer-links > a:hover {
+  cursor: pointer;
+}
+
 .social-media-logos {
   margin-right: 15px;
 }

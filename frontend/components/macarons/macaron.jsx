@@ -135,18 +135,24 @@ class MacaronPage extends React.Component {
             </p>
 
             <div>
-              <img
-                src="assets/images/facebook_icon.svg"
-                className="social-media-logos"
-              />
-              <img
-                src="assets/images/instagram_icon.svg"
-                className="social-media-logos"
-              />
-              <img
-                src="assets/images/twitter_icon.svg"
-                className="social-media-logos"
-              />
+              <a href="https://www.facebook.com/">
+                <img
+                  src="assets/images/facebook_icon.svg"
+                  className="social-media-logos"
+                />
+              </a>
+              <a href="https://www.instagram.com/">
+                <img
+                  src="assets/images/instagram_icon.svg"
+                  className="social-media-logos"
+                />
+              </a>
+              <a href="https://twitter.com/?lang=en">
+                <img
+                  src="assets/images/twitter_icon.svg"
+                  className="social-media-logos"
+                />
+              </a>
             </div>
 
             <p>@ 2019 MACARONS</p>
@@ -154,14 +160,18 @@ class MacaronPage extends React.Component {
 
           <div className="footer-right">
             <div className="footer-links">
-              <a href="">Company</a>
+              <a href="" style={{ color: "green" }}>
+                Company
+              </a>
               <a href="">About</a>
               <a href="">Locations</a>
               <a href="">Contact Us</a>
             </div>
 
             <div className="footer-links">
-              <a href="">Orders</a>
+              <a href="" style={{ color: "green" }}>
+                Orders
+              </a>
               <a href="">Order Tracker</a>
               <a href="">Delivery FAQs</a>
             </div>
