@@ -8,6 +8,9 @@
 }
 
 .footer-left {
+  font-family: "Poppins", sans-serif;
+  color: rgba(89, 89, 89, 1);
+  font-size: 14px;
   width: 50%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -26,6 +29,10 @@
 }
 
 .footer-links {
+  font-family: "Poppins", sans-serif;
+  color: rgba(89, 89, 89, 1);
+  font-size: 12px;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   width: 50%;
