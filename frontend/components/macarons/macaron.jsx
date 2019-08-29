@@ -21,11 +21,11 @@ class MacaronPage extends React.Component {
     var moreText = document.getElementById("more" + macaron.id);
     var btnText = document.getElementById(e.target.id);
 
-    if (btnText.innerHTML == "Read more") {
+    if (btnText.innerHTML == "Read More") {
       moreText.style.display = "flex";
-      btnText.innerHTML = "Read less";
+      btnText.innerHTML = "Read Less";
     } else {
-      btnText.innerHTML = "Read more";
+      btnText.innerHTML = "Read More";
       moreText.style.display = "none";
     }
   }
@@ -88,12 +88,12 @@ class MacaronPage extends React.Component {
                   <p className="menu-mac-description">
                     {macaron.description.split("...")[0]}
                   </p>
-                  <br />
                   <p
                     className="menu-mac-description"
                     id={"more" + macaron.id}
                     style={{ display: "none" }}
                   >
+                    <br />
                     {macaron.description.split("...")[1]}
                   </p>
 
@@ -104,12 +104,12 @@ class MacaronPage extends React.Component {
                     }}
                     id={"myBtn" + macaron.id}
                   >
-                    Read more
+                    Read More
                   </button>
                 </section>
 
                 <section className="macaron-right">
-                  <p>${macaron.price}/ea.</p>
+                  <p className="menu-mac-price">${macaron.price}/ea.</p>
 
                   <button
                     className="add-to-cart"

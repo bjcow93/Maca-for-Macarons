@@ -32,10 +32,10 @@ class Cart extends React.Component {
           {macarons.map((macaron, i) => (
             <section key={macaron.id} className="cart-items">
               <div
-                className="macaron-cart-image1"
+                className="macaron-cart-image-container"
                 style={{ backgroundImage: `url(${macaron.image_url})` }}
               >
-                <img className="macaron-cart-image2" src={macaron.image_url} />
+                <img className="macaron-cart-image" src={macaron.image_url} />
               </div>
 
               <section className="cart-middle">

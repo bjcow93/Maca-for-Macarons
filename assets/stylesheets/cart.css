@@ -6,12 +6,16 @@
 }
 
 .close-cart-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
   margin-left: auto;
 }
 
 .cart-header {
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   font-weight: bold;
+  color: rgba(89, 89, 89, 1);
 }
 
 .cart-items {
@@ -22,7 +26,7 @@
   border-bottom: 1px solid rgb(224, 224, 224);
 }
 
-.macaron-cart-image1 {
+.macaron-cart-image-container {
   width: 25%;
   height: 10px;
   background-size: contain;
@@ -31,7 +35,7 @@
   border-radius: 4px;
 }
 
-.macaron-cart-image2 {
+.macaron-cart-image {
   width: 100%;
   height: auto;
   border-radius: 4px;
@@ -47,21 +51,27 @@
 
 .cart-mac-name {
   font-size: 15px;
-  font-weight: bold;
-  color: green;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  /* font-weight: bold; */
+  color: rgba(93, 173, 147, 1);
 }
 
 .cart-mac-type {
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: bold;
 }
 
 .cart-item-quantity {
+  font-family: "Poppins", sans-serif;
   font-size: 10px;
   font-weight: bold;
 }
 
 .cart-remove-item {
+  font-family: "Poppins", sans-serif;
+  color: rgba(153, 153, 153, 1);
   font-size: 10px;
 }
 
@@ -70,10 +80,18 @@
 }
 
 .cart-right {
+  color: rgba(89, 89, 89, 1);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
   margin-left: auto;
 }
 
 .cart-total {
+  color: rgba(89, 89, 89, 1);
+  /* font-size: 15px; */
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 500; */
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
