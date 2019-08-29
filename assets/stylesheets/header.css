@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-items {
+  display: flex;
+  justify-content: space-between;
+  height: 10px;
+  width: 200px;
+  padding-right: 15px;
+  border-right: 1px solid gray;
+}
+
+.header-cart {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  width: 60px;
+  justify-content: space-between;
+}
+
+.header-cart:hover {
+  cursor: pointer;
+}
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+  font-size: 12px;
+  background: green;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+
+/* .fa {
+  font-size: 24px;
+} */
+
+.navigation-items > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
