@@ -86,7 +86,7 @@ class MacaronPage extends React.Component {
                   <div className="menu-mac-type">{macaron.type}</div>
 
                   <p className="menu-mac-description">
-                    {macaron.description.split("...")[0]}
+                    {macaron.description.split("(...)")[0]}
                   </p>
                   <p
                     className="menu-mac-description"
@@ -94,7 +94,7 @@ class MacaronPage extends React.Component {
                     style={{ display: "none" }}
                   >
                     <br />
-                    {macaron.description.split("...")[1]}
+                    {macaron.description.split("(...)")[1]}
                   </p>
 
                   <button
