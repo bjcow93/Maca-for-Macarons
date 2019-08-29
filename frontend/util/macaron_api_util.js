@@ -7,6 +7,9 @@
 
 // export const fetchMacarons = () =>
 
+// This is the point at which I would have grabbed the data from the backend with Rails, but instead of dive into that
+// and overcomplicate this challenge, I decided to seed some data below.
+
 export const fetchMacarons = () =>
   Promise.resolve({
     1: {
