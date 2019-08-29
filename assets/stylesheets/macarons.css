@@ -104,8 +104,7 @@
 }
 
 .add-to-cart > p {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .add-to-cart:hover {
