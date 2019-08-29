@@ -44,7 +44,7 @@ class Cart extends React.Component {
                 <div className="cart-mac-type">{macaron.type}</div>
 
                 <div className="cart-item-quantity">
-                  Quantity: x{cart[macaron.id]}
+                  Quantity: {cart[macaron.id]}
                 </div>
 
                 <button
