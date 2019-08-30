@@ -155,7 +155,7 @@ class MacaronPage extends React.Component {
               </a>
             </div>
 
-            <p>@ 2019 MACARONS</p>
+            <p style={{ color: "gray", fontSize: "10px" }}>@ 2019 MACARONS</p>
           </div>
 
           <div className="footer-right">
