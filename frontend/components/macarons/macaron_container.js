@@ -1,3 +1,5 @@
+//
+
 import { connect } from "react-redux";
 import MacaronPage from "./macaron";
 import { fetchMacarons } from "../../actions/macaron_actions";
