@@ -11,23 +11,3 @@ export const fetchMacarons = () => dispatch =>
   APIUtil.fetchMacarons().then(macarons => dispatch(receiveMacarons(macarons)));
 
 //
-//
-//
-//
-//
-//
-//
-//
-//
-// day 10
-//
-//
-//
-//
-// day 15
-//
-//
-//
-//
-// day 20
-//
